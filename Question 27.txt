@@ -1,0 +1,9 @@
+Pilier concerné : la Confidentialité. La triade CIA (Confidentialité, Intégrité, Disponibilité) définit les objectifs de la sécurité de l’information. Ici, des données sensibles (salaires) sont consultées par quelqu’un non autorisé, ce qui viole la confidentialité.
+Pourquoi : les salaires contiennent des informations privées. Le fait que ces fichiers soient accessibles à tous montre une absence de contrôle d’accès adéquat. Cela peut entraîner des indiscrétions, des jalousies et un climat de méfiance.
+Risques pour l’entreprise : perte de confiance des employés, atteinte à la conformité (notamment le RGPD), risque de divulgation publique ou de manipulation des données, problèmes juridiques.
+Mesures de sécurité :
+1. Contrôle d’accès basé sur les rôles (RBAC) : définir des permissions précises afin que seuls les responsables autorisés puissent accéder aux dossiers de salaire.
+2. Segmentation des répertoires : séparer les dossiers sensibles dans des répertoires protégés et chiffrés.
+3. Journalisation et audit : activer des logs d’accès et effectuer des revues régulières pour détecter les accès non autorisés.
+4. Sensibilisation et politiques : former les employés à la protection des données sensibles et mettre en place des politiques de confidentialité strictes.
+5. Chiffrement : chiffrer les fichiers au repos pour prévenir l’accès en clair par des utilisateurs non autorisés
