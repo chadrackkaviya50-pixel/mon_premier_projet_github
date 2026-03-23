@@ -1,0 +1,10 @@
+Pilier touché : la Disponibilité. Ce pilier assure que les systèmes et services sont accessibles quand les utilisateurs en ont besoin.
+Pourquoi : une surcharge (pointe de trafic ou attaque DDoS) accompagnée d’un manque de protections (pas de redondance ni de scalabilité) rend le service indisponible.
+Conséquences techniques et business : interruption de service, perte de ventes, frustration des clients, perte de confiance, atteinte à la réputation et risques financiers. En six heures, un e‑commerce peut perdre un chiffre d’affaires conséquent et voir les clients se tourner vers la concurrence.
+Solutions pour améliorer la disponibilité :
+1. Équilibrage de charge : mettre en place des load balancers pour répartir le trafic entre plusieurs serveurs afin d’éviter la saturation.
+2. Autoscaling : utiliser l’élasticité du cloud pour augmenter automatiquement le nombre d’instances lorsque la demande augmente.
+3. Cache et CDN : servir les contenus statiques via un réseau de distribution (CDN) et mettre en cache les pages dynamiques afin de réduire la charge sur le serveur principal.
+4. Protection contre les DDoS : activer des services de protection (AWS Shield, Cloudflare) pour filtrer les attaques volumétriques.
+5. Réplication et basculement : déployer des architectures multi‑zones et multi‑régions avec basculement automatique (failover) en cas d’incident.
+6. Tests de charge réguliers : effectuer des simulations de montée en charge pour identifier les points faibles et dimensionner correctement l’infrastructure.
