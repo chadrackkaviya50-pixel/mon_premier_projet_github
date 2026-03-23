@@ -1,0 +1,9 @@
+Pilier impacté : l’Intégrité. La modification non autorisée altère la fiabilité et l’exactitude des données.
+Pourquoi : l’intégrité assure que les données sont correctes et complètes. Une altération des quantités d’inventaire fausse les chiffres, entraînant des décisions erronées (commandes incorrectes, ruptures de stock fictives, etc.).
+Conséquence métier : mauvaise gestion des stocks, pertes financières, insatisfaction client et perte de crédibilité, car les décisions basées sur ces données sont invalides.
+Contrôles pour protéger l’intégrité :
+1. Gestion stricte des droits et séparations des tâches : seuls les utilisateurs autorisés peuvent modifier les données ; les rôles de lecture et d’écriture sont distincts.
+2. Journalisation et traçabilité : activer un audit trail pour enregistrer toutes les modifications de données (qui a modifié quoi et quand).
+3. Validation et contrôles applicatifs : mettre en place des contraintes au niveau de la base de données (trigger, contraintes d’intégrité référentielle) et valider les entrées dans l’application.
+4. Sauvegardes régulières : pouvoir restaurer rapidement les données correctes en cas de corruption.
+5. Vérifications croisées : recourir à des rapprochements réguliers (par exemple entre l’inventaire physique et la base de données).
